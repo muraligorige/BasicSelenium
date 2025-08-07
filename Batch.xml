@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG.Using_EnableClass"/>
+      <class name="TestNG.Using_DependencyOnMethodFlag"/>
+      <class name="TestNG.Using_ThreadPollSize"/>
+      <class name="TestNG.Using_invocationCount"/>
+      <class name="TestNG.Simple_Text"/>
+      <class name="TestNG.Using_PriorityFlag"/> <!-- here we will get error but even though it can be execeted -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
